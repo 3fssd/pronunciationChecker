@@ -1,5 +1,6 @@
 # pronunciationChecker
 Uses allosaurus, whisper, and deepseek to detect English pronunciation mistakes in an audio clip. Author: Guanyu Ren. 
+Please install the necessary packages according to requirements.txt. It's verified to work for python 3.12.
 
 Here's a sample output:
 
