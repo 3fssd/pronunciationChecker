@@ -1,12 +1,15 @@
 # pronunciationChecker 发音检查算法验证
 Uses allosaurus, whisper, and deepseek to detect English pronunciation mistakes in an audio clip. Author: Guanyu Ren. 
 Please install the necessary packages according to requirements.txt. It's verified to work for python 3.12.
+The code uses the MIT license.
 使用了allosaurus, whisper库以及deepseek来检查英文音频中的发音错误。作者：任冠羽
 请安装requirements.txt中的包，目前已知在python 3.12中可以运行。
+代码使用MIT协议。
 
 Here's a sample output:
 以下为一个样本输出：
 
+【
 根据逐字稿和音标对比，可以推断学生发音可能存在问题的单词如下（忽略语法错误，仅关注发音）：
 
 1. **field trip**  
@@ -52,3 +55,7 @@ Here's a sample output:
 - 添加或省略音节（如 "clearly" 发成多音节）。  
 
 建议针对这些单词进行发音练习，特别是辅音清晰度、元音长度和重音模式。
+】
+
+The key advantage of this implementation is that the code can detect flaws in one's pronounciation in more detail, and can use natural languages to explain the specfic flaws, making it easier for the end-user to follow and improve.
+算法主要优势在于其可以更加细致地检测发音错误，而且可以用自然语言解释问题，让用户更加容易理解。
